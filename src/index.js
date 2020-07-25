@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   
   <App></App>,
-  
+  document.getElementById('root')
   //React.createElement('div',null,React.createElement('i',null,"abdulRahman")),
 
   //<App name="Abdul Rahman" age={25}/>,
@@ -19,7 +19,6 @@ ReactDOM.render(
     //   <i>harooon/huzefa/Habib</i>
     // </div>,
   
-  document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change

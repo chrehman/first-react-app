@@ -1,10 +1,31 @@
 import React from 'react';
-import Hello from './Hello.js'
+import Room from './Room.js';
 import './App.css';
 
 function App() {
-  return <Hello name="Abdul Rahman"></Hello>
-  
+
+    return(
+      <div>
+        <Room></Room>
+      </div>
+    );
+
+//////////////CLASS 3/////////////////////
+  //  return <Hello name="Abdul Rahman"></Hello>
+
+
+
+  //////////////CLASS 3/////////////////////
+  // ///FUnctions Types
+  //   const hi=function(name){
+
+  //   }
+
+  // const hi =(name)=>{
+
+  // }
+
+  // const hi=(name)=> "hello"
   // function App({name,age}){
 // return <div>hello world from {name} age={age-1}</div>
 // }
